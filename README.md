@@ -6,8 +6,8 @@
     - dowellevent.py , has dowelleventcreation function.
     - dowellpopulation.py , has targeted population function. 
     - callfunction.py , has function call and database and collection details
-2.  Dowellconnection function
-   function call : ==dowellconnection(cluster,database,collection,document,team_member_ID,function_ID,command,field)==
+2.  Dowellconnection function `[dowellconnection(cluster,database,collection,document,team_member_ID,function_ID,command,field)]`
+&nbsp;
     ```python
     from dowellconnections import dowellconnection
     from dowellevent import get_event_id
@@ -27,8 +27,8 @@
 
     ==Note: key for eventId should be written like `evenId`== 
 &nbsp;
-3. Dowellpopulation function
-function call : ==targeted_population(database, collection, fields, period)==
+3. Dowellpopulation function `[targeted_population(database, collection, fields, period)]`
+&nbsp;
     ```python
     from dowellpopulation import targeted_population
     def tp_report_fetch():
