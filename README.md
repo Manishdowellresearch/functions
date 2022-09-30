@@ -9,6 +9,9 @@
 2.  Dowellconnection function
    function call : ==dowellconnection(cluster,database,collection,document,team_member_ID,function_ID,command,field)==
     ```python
+    from dowellconnections import dowellconnection
+    from dowellevent import get_event_id
+
     def tp_report_insert():
     field ={
         "eventId":get_event_id(),
@@ -27,6 +30,7 @@
 3. Dowellpopulation function
 function call : ==targeted_population(database, collection, fields, period)==
     ```python
+    from dowellpopulation import targeted_population
     def tp_report_fetch():
         field = "test_data"
         time_period = "life_time"
