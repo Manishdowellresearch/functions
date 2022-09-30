@@ -39,5 +39,5 @@
 
     print(tp_report_fetch())
     ```
-    - **field** is where you wnat to apply the dowellpopulation function.
+    - **field** is where you want to apply the dowellpopulation function.
     - **time_period** is for time interval you need data 
