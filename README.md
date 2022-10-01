@@ -104,7 +104,7 @@
     1. document_creation
     2. sign_order
     3. template_creation
-- targeted_popplation_function("workflowai","document_creation",['document'],"life_time") = "product_db"
+- targeted_population_function("workflowai","document_creation",['document'],"life_time") = "product_db"
 - connection_function("TP_Reports","tp_reports","Reports","Reports","1000001","ABCDE","insert",field)
 
 ```json
