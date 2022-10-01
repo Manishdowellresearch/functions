@@ -98,9 +98,8 @@
 
 
 
-## Report 
+## Report for WOrkflowAi 
 
-- first call targeted population function to fetch data from workflowAi db
 - let say WorkflowAi db has 3 collections
     1. document_creation
     2. sign_order
