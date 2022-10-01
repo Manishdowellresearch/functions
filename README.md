@@ -94,3 +94,29 @@
     }
 }
 ```
+
+
+
+
+## Report 
+
+- first call targeted population function to fetch data from workflowAi db
+    1. let say WorkflowAi db has 3 collections
+        1. document_creation
+        2. sign_order
+        3. template_creation
+    2.  targeted_popplation_function("workflowai","document_creation",['document'],"life_time")
+    3. connection_function("TP_Reports","tp_reports","Reports","Reports","1000001","ABCDE","insert",field)
+        ```json
+        field= {
+        "eventId":"eventId",
+        "Reort_from_sheet":{
+            "report":[
+                "DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"
+            ]
+        },
+        "WorkflowAi_report":{
+            "product_report":"whatever you got from the targeted population function in line number 2"
+        }
+        }   
+        ```
