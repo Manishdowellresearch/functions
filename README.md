@@ -105,7 +105,7 @@
         1. document_creation
         2. sign_order
         3. template_creation
-    2.  targeted_popplation_function("workflowai","document_creation",['document'],"life_time")
+    2.  targeted_popplation_function("workflowai","document_creation",['document'],"life_time") = "product_db"
     3. connection_function("TP_Reports","tp_reports","Reports","Reports","1000001","ABCDE","insert",field)
         ```json
         field= {
