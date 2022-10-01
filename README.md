@@ -41,3 +41,44 @@
     ```
     - **field** is where you want to apply the dowellpopulation function.
     - **time_period** is for time interval you need data 
+
+
+## WorkflowAi Reports
+```json
+{
+    "eventId":"eventId",
+    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"],
+    "product_report":{
+        "report":"product_report"
+    }
+}
+```
+```json
+{
+    "eventId":"eventId",
+    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"],
+    "product_report":{
+        "report":"product_report"
+    }
+}
+```
+
+## Hr Report
+```json
+{
+    "eventId":"eventId",
+    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"],
+    "product_report":{
+        "report":"product_report"
+    }
+}
+```
+```json
+{
+    "eventId":"eventId",
+    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"],
+    "product_report":{
+        "report":"product_report"
+    }
+}
+```
