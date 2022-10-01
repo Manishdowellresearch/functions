@@ -47,18 +47,24 @@
 ```json
 {
     "eventId":"eventId",
-    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"],
-    "product_report":{
-        "report":"product_report"
+    "Reort_from_sheet":{
+        "report":[
+            "DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"
+            ],
+    "WorkflowAi_report":{
+        "product_report":"product_report"
     }
 }
 ```
 ```json
 {
     "eventId":"eventId",
-    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"],
-    "product_report":{
-        "report":"product_report"
+    "Reort_from_sheet":{
+        "report":[
+            "DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"
+            ],
+    "WorkflowAi_report":{
+        "product_report":"product_report"
     }
 }
 ```
@@ -67,18 +73,24 @@
 ```json
 {
     "eventId":"eventId",
-    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"],
-    "product_report":{
-        "report":"product_report"
+    "Reort_from_sheet":{
+        "report":[
+            "DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI NO"
+            ],
+    "HR_report":{
+        "product_report":"product_report"
     }
 }
 ```
 ```json
 {
     "eventId":"eventId",
-    "Reort":["DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"],
-    "product_report":{
-        "report":"product_report"
+    "Reort_from_sheet":{
+        "report":[
+            "DOCUMENTATION","ADMIN","SIGN","TIME","MINUTE","DUPLI YES"
+            ],
+    "HR_report":{
+        "product_report":"product_report"
     }
 }
 ```
