@@ -7,18 +7,21 @@ from dowellevent import get_event_id
 def tp_report_insert():
     field ={
         "eventId":get_event_id(),
-        "test_data":"test_data" 
+        "company":"Dowell" ,
+        "name":"Jobin",
+        "location":"kerla"
         }
     inserted_id= dowellconnection("TP_Reports","tp_reports","Reports","Reports","1000001","ABCDE","insert",field)
     return inserted_id
 
 #call dowellpopulation function for tp_reports
 def tp_report_fetch():
-    field = "test_data"
+    field = "company"
     time_period = "life_time"
     fetch_data= targeted_population("tp_reports","Reports",[field],time_period)
     return fetch_data
 
 print(tp_report_insert())
 print(tp_report_fetch())
+
 
